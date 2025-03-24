@@ -2,15 +2,7 @@ import java.net.DatagramSocket;
 import java.net.DatagramPacket;
 import java.io.IOException;
 
-/**
- * UDP Server
- * 
- * Usage: java myFirstUDPServer.java <port>
- * 
- * Simply receives messages and returns them in all caps
- * 
- * Note: Be sure to run this and myFirstUDPClient in seperate processes
- */
+
 public class myFirstUDPServer {
 
     private static final int DEFAULT_PORT = 10010;
