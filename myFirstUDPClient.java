@@ -5,20 +5,6 @@ import java.util.Scanner;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 
-/**
- * UDP Client
- * 
- * Usage: java myFirstUDPClient.java <hostname> <port>
- * 
- * 1) Prompts the user to enter a sentence
- * 2) Sends the sentence to the server
- * 3) Receives the response from the server
- * 4) Measure the duration between time sent and received
- * 5) Displays the message received and time elapsed
- * 6) Collects the round trip time and calculates statistics
- * 
- * Note: Be sure to run this and myFirstUDPServer in seperate processes
- */
 public class myFirstUDPClient {
 
     private static final int DEFAULT_PORT = 10010;
